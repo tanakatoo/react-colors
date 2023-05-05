@@ -15,6 +15,7 @@ const Routes = ({ colors, addData }) => {
                     <ColorPage color={c} key={uuid()} />
                 </Route>
             ))}
+            <Route><Form addData={addData} /></Route>
         </Switch>
     )
 
